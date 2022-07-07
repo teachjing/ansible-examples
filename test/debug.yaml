@@ -1,6 +1,7 @@
 ---
 - hosts: all  # Host or Group of Selections
   become: yes
+  become_user: root
   connection: local
   tasks:
   - name: Debug 
