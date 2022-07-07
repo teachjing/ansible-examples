@@ -1,5 +1,6 @@
 ---
 - hosts: all  # Host or Group of Selections
+  become: yes
   connection: local
   tasks:
   - name: Debug 
