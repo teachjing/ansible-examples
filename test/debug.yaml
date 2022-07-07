@@ -1,0 +1,5 @@
+---
+- hosts: all  # Host or Group of Selections
+  tasks:
+  - name: Debug 
+    debug: msg="This is a test message"
